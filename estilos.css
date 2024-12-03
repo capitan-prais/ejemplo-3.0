@@ -365,10 +365,6 @@ h4 {
   animation-range: entry 0 cover 40%;
 }
 
-.todo:active{
-  box-shadow: inset 0px -20px 19px -5px #fff;
-}
-
 @media screen and (max-width: 1150px){
   .todo {
     height: 100%;
@@ -404,12 +400,6 @@ h4 {
     width: 65%;
     height: 13%;
     padding: 5px 0px 0px 0px;
-    /* text-align: center;
-    justify-content: center; */
-
-    /* float: none; */
-    /* margin-left: auto;
-    margin-right: auto; */
   }
 }
 
@@ -543,7 +533,6 @@ h4 {
   /* box-shadow: inset 0px -100px 6px 0px #fff; pone sombra interna en la parte de abajo */
 }
 
-
 .titulodepelicula { 
   width: 100%; /*ancho*/
   margin: 180px 20px 0px 25px; /*movemos la posicion del titulo*/
@@ -556,9 +545,6 @@ h4 {
   transition: .5s ease;
   font-weight: bold;
 }
-
-
- 
 
 .carousel .indicators .indicator-item {
   width: 20px; /*ancho*/
