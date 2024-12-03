@@ -481,7 +481,7 @@ h4 {
 
 /*este lo colocamos para que despues de apretar quede a este color el fondo ya que sin este quedaria en verde todo el rato.*/
 .btn:hover {
-  background-color: #0056b3;
+  background-color: #007bff;
 }
 /*este lo ocupamos para que al dar click en el boton cambie el tamaño y el color colo al dar click*/
 .btn:active {
@@ -508,6 +508,14 @@ h4 {
   vertical-align: middle; /* Asegura que el icono esté centrado */
 }
 
+.btn i, .btn-large i, .btn-small i, .btn-floating i, .btn-large i, .btn-small i, .btn-flat i{
+  font-size: 2rem;
+    line-height: inherit;
+}
+
+.btn:focus, .btn-large:focus, .btn-small:focus, .btn-floating:focus {
+  background-color: #007bff;
+}
 
 /*este efecto lo ocupamos para mostrar el titulo de la imagen al pasar el mause por la imagen, a la letra le colocamos (opacity 0)*/
 
@@ -595,26 +603,25 @@ h4 {
 
 /* aqui modificamos el boton que nos dirige hacia arriba */
 
-.arriba {
-  display: none; /* Inicialmente no se muestra */
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: transparent;
-  border: none;
-  cursor: pointer;
+
+.n img{
+  width: 65px;
+  height: 65px;
+  position:fixed;
+  bottom:0;
+  right:0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  /* background: #000; */
 }
 
-.arriba.show {
-  display: block; /* Aparece cuando se hace scroll hacia abajo */
-}
-
-.arriba img {
-  width: 55px; /* Ajusta el tamaño según sea necesario */
-}
-
-.arriba:active{
-  width: 50px;
+.n img:active{
+  width: 55px;
+  height: 55px;
+  box-shadow: none;
+  /* background: none; */
 }
 
 .highlight {

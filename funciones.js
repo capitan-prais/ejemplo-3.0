@@ -133,21 +133,8 @@ type="text/javascript">
 			$('audio')[4].play();
 		});
 
-		$('.n').mouseover(function(){
-			$('audio')[0].play();
-		});
-
 		$('.n').mousedown(function(){
 			$('audio')[6].play();
 		});
 	});
 
-// que modificamos !-- boton para subir hacia arriba --> /////////////////////////////////
-
-    window.onscroll = function() {
-        if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
-            document.querySelector('.arriba').classList.add('show');
-        } else {
-            document.querySelector('.arriba').classList.remove('show');
-        }
-    }
